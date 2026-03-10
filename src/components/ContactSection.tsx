@@ -41,9 +41,8 @@ const ContactSection = () => {
             </p>
             <div className="space-y-4">
               {[
-                { icon: Phone, text: "+91 98765 43210" },
-                { icon: Mail, text: "hello@mrkevents.com" },
-                { icon: MapPin, text: "Mumbai, Maharashtra, India" },
+                { icon: Phone, text: "+91 99628 54805" },
+                { icon: MapPin, text: "Tiruppur, Tamil Nadu, India" },
               ].map((item) => (
                 <div key={item.text} className="flex items-center gap-4">
                   <div className="w-10 h-10 rounded-full bg-gradient-gold flex items-center justify-center flex-shrink-0">
